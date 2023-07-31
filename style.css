@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color:#abb6c7;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300
+}
+
+#circle-image {
+  border-radius: 50%;
+  width: 150px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1)
+}
+
+h1 {
+  color: #304461;
+}
+
+h2 {
+  color: #738b3a;
+  padding: 0px
+}
+
+a {
+  text-decoration: none;
+  color: #121314;
+  font-weight: bold;
+  transition: color 0.25s
+}
+
+a:hover {
+  color: #edf0f3
+}
+
+.container {
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  padding: 40px;
+  margin: 50px 50px;
+  border: 1px solid lightgrey;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1)
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 33px;
+  list-style: none;
+  padding-left: 0px
+}
+
+.large-button {
+  background-color: #6B72E1;
+  color: white;
+  padding: 6px 40px;
+  border-radius: 5px;
+  margin-bottom: 100px;
+  transition: color 0.25s
+}
+
+.large-button:hover {
+  background-color: #010213;
+}
